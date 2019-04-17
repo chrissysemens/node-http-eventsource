@@ -1,0 +1,15 @@
+{
+  "name": "refresh-server",
+  "version": "1.0.0",
+  "description": "Test backend for EventSource",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chrissy Semens",
+  "license": "ISC",
+  "dependencies": {
+    "on-change": "^1.2.0"
+  }
+}
