@@ -2,7 +2,7 @@ const http = require("http");
 
 http
   .createServer((request, response) => {
-    if (request.url === "/refresh") {
+    if (request.url === "/subscribe") {
       response.writeHead(200, {
         Connection: "keep-alive",
         "Content-Type": "text/event-stream",
